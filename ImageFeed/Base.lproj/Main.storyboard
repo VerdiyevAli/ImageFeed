@@ -66,8 +66,17 @@
                                             </userDefinedRuntimeAttribute>
                                             <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds = true" value="YES"/>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <outlet property="cellImage" destination="WYF-c7-89e" id="djC-zF-DOf"/>
+                                            <outlet property="dateLabel" destination="iX2-IF-cwj" id="wr3-CB-e8s"/>
+                                            <outlet property="likeButton" destination="e1v-od-zaC" id="ldU-Ye-BMY"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="Y5P-ob-DV5"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="APz-go-y9q"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -80,7 +89,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="tableView" destination="66y-O6-yNe" id="Luj-fv-6RW"/>
+                        <outlet property="tableView" destination="66y-O6-yNe" id="oa4-UJ-mFH"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
