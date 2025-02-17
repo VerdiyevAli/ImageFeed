@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		E50CC58B2D5087E400FF60EF /* ImageFeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageFeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E593FFE12D5E0A730029946E /* ImageFeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageFeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -46,7 +46,7 @@
 			isa = PBXGroup;
 			children = (
 				E5CAE9F32D4817810047DB1E /* ImageFeed */,
-				E50CC58B2D5087E400FF60EF /* ImageFeed.app */,
+				E593FFE12D5E0A730029946E /* ImageFeed.app */,
 			);
 			sourceTree = "<group>";
 		};
@@ -72,7 +72,7 @@
 			packageProductDependencies = (
 			);
 			productName = ImageFeed;
-			productReference = E50CC58B2D5087E400FF60EF /* ImageFeed.app */;
+			productReference = E593FFE12D5E0A730029946E /* ImageFeed.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
