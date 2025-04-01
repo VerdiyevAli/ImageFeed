@@ -3,7 +3,7 @@ import Foundation
 final class OAuth2Service {
     
     static let shared = OAuth2Service()
-    private init() {}
+    init() {}
     
     private enum NetworkError: Error {
         case codeError
